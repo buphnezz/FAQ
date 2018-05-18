@@ -9,6 +9,9 @@ $(document).ready(function(){
 	}
 
 
+	$('#new_feature').click(function(){
+		location.href="new_feature.html"
+	});
 	$('#physical_activity').click(function(){
 		location.href="physical_activity.html"
 	});
@@ -50,8 +53,5 @@ $(document).ready(function(){
 	$('#apple_healthkit').click(function(){
 		location.href="applehealthkit.html"
 	});
-
-
-
-
+	
 });
